@@ -257,14 +257,12 @@ p{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center; 
-	position: relative;
 	background-color: var(--primary-color);
 }
 .portfolio-item{
 	width: 80%;
 	height: 70%;
 	display: flex;
-	background-color: var(--primary-color);  
 
 }
 .portfolio-item-img{
