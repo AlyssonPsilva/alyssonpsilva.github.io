@@ -263,6 +263,7 @@ p{
 }
 .portfolio-item{
 	width: 80%;
+	display: flex;
 
 
 }
