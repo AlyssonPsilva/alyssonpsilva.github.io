@@ -1,0 +1,409 @@
+:root{
+	--primary-color: #5995ED;
+	--secondary-color: #1E2019;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+
+}
+header{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	background-color: var(--secondary-color) ;
+	padding-top: 10px;
+	padding: 20px;
+}
+h1, h2, h3{
+	font-family: 'Allan', cursive;
+}
+.tittle{
+	font-family: 'Fira Sans', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: var(--primary-color);
+	text-shadow: 1px 1px 1px black;
+	font-weight: 500;
+}
+p{
+	font-family: 'Anaheim', sans-serif;
+}
+#nav-menu{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	gap: 20px;
+}
+.nav-link{
+	color: var(--primary-color) ;
+	font-size: large;
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: white;
+	transition-duration: 0.3s;
+
+}
+#about-me-section{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/bgImage.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	gap: 150px;
+	margin-bottom: 30px;
+}
+
+#photo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+
+}
+#social-media{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+#social-media i{
+	font-size: 30px;
+	color: white;
+}
+#social-media i:hover {
+	color: var(--primary-color);
+	transition-duration: 0.5s;
+}
+#main-tittle{
+	color: var(--primary-color);
+	font-weight: 700;
+	text-align: center;
+	font-size: x-large;
+	border-bottom: 1px solid var(--primary-color);
+	margin-bottom: 20px;
+}
+#text-container p{
+	color: white;
+	max-width: 250px;
+	font-size: large;
+	
+	
+}
+#skills-section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+#skills-container{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 8px 6px #eff1edff, -1px -1px 1px 1px #eff1edff;
+	border-radius: 15px;
+	padding-bottom: 50px;
+}
+#skills-list{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	list-style: none;
+	gap:30px;
+}
+.skill-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.skill-item p{
+	font-family: 'Allan', cursive;
+	font-weight: 700;
+}
+.fa-html5{
+	color: #E44D26;
+	font-size: 50px;
+}
+.fa-css3-alt{
+	color: #264de4;
+	font-size: 50px;
+}
+.fa-js-square{
+	color: #f9f92c;
+	font-size: 50px;
+}
+.fa-git-alt{
+	color: #f34f29;
+	font-size: 50px;
+
+}
+#formation-section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+#formation-section p{
+	font-weight: 600;
+
+}
+#formation-section h2{
+	margin-bottom: 10px;
+}
+#formation-section h3{
+	margin-bottom: 15px;
+}  
+.tittle-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.formation-icon{
+	width: 35px;
+}
+#graduation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+#certifications{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 120px;
+}
+.certification-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	margin-bottom: 10px;
+
+}
+.certification-item i{
+	font-size: 25px;
+	color: var(--primary-color);
+}
+
+#portfolio-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+#portfolio-slider{
+	display: flex;
+	width: 80%;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 8px 6px #eff1edff, -1px -1px 1px 1px #eff1edff;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	gap: 10px;
+	padding-bottom: 20px;
+	position: relative;
+
+}
+.portfolio-item{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.portfolio-item-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+#control-btns{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.portfolio-btn{
+	width: 50px;
+	background-color: var(--secondary-color);
+	border-radius: 50%;
+	border: 1px solid white;
+	color: var(--primary-color);
+	height: 50px;
+}
+.portfolio-btn:hover{
+	transform: scale(1.2);
+	transition-duration:0.5s;
+	cursor: pointer;
+}
+.portfolio-item-link{
+	text-decoration: none;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+.portfolio-item-link span{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 84%;
+	gap: 5px;
+	color: var(--primary-color);
+	font-family: 'Fira Sans', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	top: 92%;
+	background-color: var(--secondary-color);
+	padding: 3px;
+	border-radius: 5px;
+	
+}
+
+.inactive{
+	background-color: black;
+}
+.active{
+	background-color: var(--primary-color);
+	transition-duration: 0.3s;
+}
+.disabled{
+	display: none;
+}
+footer{
+	background-color: var(--secondary-color);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+footer p{
+	color: var(--primary-color);
+	font-weight: 700;
+}
+@media screen and (max-width: 767px){
+	body{
+		overflow-x: hidden;
+	}
+	#about-me-section{
+		gap: 50px;
+		background-attachment: initial;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	p{
+		font-size: medium;
+	}
+	.nav-link{
+		font-size: medium;
+	}
+	#photo{
+		width: 70px;
+		height: 70px;
+	}
+	#text-container p{
+		font-size: medium;
+
+	}
+	#skills-container{
+		width: 80%;
+
+	}
+	#skills-list{
+		gap: 15px;
+	}
+	.fa-html5{
+		color: #E44D26;
+		font-size: 30px;
+	}
+	.fa-css3-alt{
+		color: #264de4;
+		font-size: 30px;
+	}
+	.fa-js-square{
+		color: #f9f92c;
+		font-size: 30px;
+	}
+	.fa-git-alt{
+		color: #f34f29;
+		font-size: 30px;
+	}
+	#formation-section h2{
+		margin-bottom: 20px;
+	}
+	#graduation{
+		flex-direction: column;
+		gap: 0;
+	}
+	#graduation p{
+		text-align: center;
+		margin-bottom: 15px;
+		max-width: 280px;
+	}
+	#certifications{
+		flex-direction: column;
+		gap: 10px;
+	}
+	
+	#portfolio-section{
+		margin-bottom: 50px;
+	}
+	#portfolio-slider{
+		width: 100%;
+		justify-content: unset;
+	}
+	.portfolio-item-img{
+		object-fit: contain;
+
+	}
+	.portfolio-item-link span{
+		left: 60%;
+		top: 75%;
+		
+	}
+	.portfolio-item-link span > p{
+		font-size: x-small;
+	}
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1232px){
+	.portfolio-item-link span{
+		left: 70%;
+		top: 85%;
+		
+	}
+
+}
